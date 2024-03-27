@@ -1,6 +1,6 @@
 <div align="center">-
   
-![header](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=150&section=header&text=Hwan%20tori&fontSize=80&animation=fadeIn)
+![header](https://capsule-render.vercel.app/api?type=waving&color=red&height=150&section=header&text=Hwan%20tori&fontSize=80&animation=fadeIn)
 
   ### Hi there 👋
      ㅎㅇㅎㅇ
