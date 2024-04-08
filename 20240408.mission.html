@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<!DOCTYPE html>
+    <html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./sanitize.css-main/sanitize.css"></link>
+        <title>Document</title>
+        <style>
+    
+            /*슈도 엘리먼트pseudo-element의 일부 : 
+            부모 선택자, 
+            자식선택자( " > "1depth, 조금 더 축소된걔념), 
+            자손(후손)선택자("공란(space bar)" 전체depth 조금 더 포괄개념)*/
+    
+            .main > h1{
+                background-color: aquamarine;
+            }
+            .main h1{
+                color: blue;
+            }
+            /*테이블의 tbody처럼 구획이 나누어진 태그를 직계자손 속성으로 호출하는 것은 웹브라우저가 받아들이지 못하므로, 후손 선택자로 대체하자.*/
+            table th{
+                color: brown;
+            }
+        </style>
+    </head>
+    <body>
+        <figure class="main">
+            <h1>제목1</h1>
+            <div class="sub">
+                <h1>제목2</h1>
+            </div>
+        </figure>
+    
+        <figure>
+            <table border="1">
+                <tr>
+                    <th>이름</th>
+                    <th>지역</th>
+                </tr>
+                <tr>
+                    <td>홍길동</td>
+                    <td>지구별 특별시</td>
+                </tr>
+            </table>
+        </figure>
+    </body>
+    </html>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
